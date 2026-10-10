@@ -1,0 +1,18 @@
+Estamos construyendo Hack the Andes, un RPG 2D web individual con pixel art y vista top-down 3/4. El repositorio inicialmente tiene solo README. Ya copié a su raíz el kit de recursos revisados. Implementa únicamente la Fase 0B: base técnica y diagnóstico visual de assets. Trabaja hasta dejarla verificable.
+
+Antes de editar, inspecciona el repo y lee AGENTS.md y docs/contexto.md, roadmap.md, decisiones-tecnicas.md, progreso.md, integracion-assets.md y licencias-y-origen.md. Conserva el README y cualquier cambio existente; fusiona, no sobrescribas por comodidad.
+
+Haz lo siguiente:
+
+1. Comprueba Node/npm y el contenido actual. Crea Vite + TypeScript sin framework UI adicional. Integra en el repo existente sin ejecutar un generador destructivo sobre él. Instala Phaser 3.90.0 exacto (no latest), Vite y TypeScript compatibles con Node local, y guarda package-lock.json. Explica un bloqueo real de instalación si existe; no declares éxito sin dependencias disponibles.
+2. Crea index.html, src/main.ts, src/style.css, tsconfig y configuración Vite necesaria. Activa TS strict. Usa vista lógica 960×540, FIT/CENTER_BOTH, pixelArt y roundPixels; mantén tamaño del canvas adaptable. Las medidas son una propuesta inicial, ajustable al tamaño real de pantalla.
+3. Organiza módulos src/game/, src/scenes/, src/entities/, src/systems/ y src/ui/ solo cuando tengan contenido; no generes clases vacías ni sistemas complejos.
+4. Implementa BootScene para cargar los dos atlas aprobados y runtime-manifest, con indicador de carga y error visible si una carga falla. Usa import.meta.env.BASE_URL. Puedes adaptar integration-examples/. Verifica que los datos runtime sean válidos antes de usarlos.
+5. Crea AssetReviewScene con los 98 iconos transparentes, paginación si no caben, nombre legible y grupos Botín/Bestiario. Comprueba textura/frame antes de dibujar. Usa nearest y escalas enteras. Incluye una nota visible: “Diagnóstico de recursos; mundo jugable pendiente”. No coloques monstruos distintos en una animación. No implementes un mundo con cuadrados ni hagas parecer jugable la galería.
+6. Añade scripts npm: dev, typecheck (tsc --noEmit), build (typecheck y vite build), preview y assets:check (node scripts/verify-assets.mjs). Fusiona gitignore.fragment con .gitignore. No fuerces el commit de archivos ignorados. La carpeta local de assets debe seguir funcionando aunque esté ignorada por Git.
+7. Ejecuta assets:check, typecheck y build. Prueba en navegador la carga de ambos atlas, todos los frames, cambio de página/grupo, redimensionamiento y ausencia de 404/errores. Verifica base en subruta configurando una base de prueba y sirviendo el build cuando sea posible. Documenta exactamente lo comprobado y cualquier prueba no realizada.
+8. Actualiza README con instalación/ejecución, enlace a docs y el estado real. Actualiza progreso.md con archivos creados, versiones, comprobaciones y próxima acción. No marques Fase 1 como terminada.
+
+Límites: sin Next.js/React, Supabase, cuentas, multijugador, combate, inventario funcional, tres clases ni descargas automáticas de nuevos packs. Solo public/assets contiene imágenes aprobadas. asset-workbench y docs/audit-original son referencias/histórico. No modificar capturas para presentarlas como sprites fuente. No sustituir contenido faltante por assets externos sin registrar origen/licencia.
+
+Entrega: base que arranca con npm run dev, galería con 48 iconos de botín + 50 de criaturas y compilación limpia. Lista breve de cambios, pruebas y pendientes. El siguiente paso será obtener tileset exterior y un personaje animado autorizado; este prompt no requiere tenerlos todavía.

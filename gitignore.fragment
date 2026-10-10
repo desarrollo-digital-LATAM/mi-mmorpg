@@ -1,0 +1,11 @@
+# Fusionar con .gitignore; no reemplazar reglas existentes.
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+# Fuentes/capturas no forman parte de la aplicación.
+asset-workbench/
+# Mantener local hasta resolver la distribución de fuentes en el repo.
+public/assets/icons/
+public/assets/atlases/

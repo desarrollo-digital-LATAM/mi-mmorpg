@@ -1,0 +1,16 @@
+{
+  "originalFiles": 906,
+  "originalPngFiles": 893,
+  "uniqueIcons": 98,
+  "runtimeIndividualPngs": 196,
+  "atlasCount": 2,
+  "atlasFrames": 98,
+  "reviewedImages": 894,
+  "statuses": {
+    "usable_icon": 196,
+    "reference_only": 695,
+    "pending_source": 3
+  },
+  "originalsPreservedByteForByte": true,
+  "unresolved": "No exportaciones fuente de personajes animados ni mapas jugables; falta fuente/licencia de capturas y dungeon."
+}

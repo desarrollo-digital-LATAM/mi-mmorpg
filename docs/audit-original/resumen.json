@@ -1,0 +1,41 @@
+{
+  "total_items_inventory": 738,
+  "counts_by_category": {
+    "02_ICONOS/HABILIDADES": 48,
+    "03_ARMAS/BASTONES": 48,
+    "03_ARMAS/HACHAS": 48,
+    "agua": 21,
+    "campamento": 5,
+    "construcciones": 5,
+    "debuffs": 48,
+    "debuffs_32x32": 48,
+    "dungeon": 3,
+    "fuego": 6,
+    "loot_con_fondo": 48,
+    "loot_transparente": 48,
+    "mage": 1,
+    "mage_acciones": 7,
+    "mage_retratos": 3,
+    "monstruos_bonus_con_fondo": 2,
+    "monstruos_bonus_transparentes": 2,
+    "monstruos_con_fondo": 48,
+    "monstruos_transparentes": 48,
+    "nieve": 33,
+    "personajes": 1,
+    "rocas": 4,
+    "skills_asesino": 48,
+    "skills_asesino_32x32": 48,
+    "skills_guerrero": 48,
+    "skills_guerrero_32x32": 48,
+    "terreno": 6,
+    "vegetacion": 15
+  },
+  "folders_integrated": [
+    "01_ESCENARIO",
+    "02_ICONOS",
+    "03_ARMAS",
+    "04_PERSONAJES",
+    "05_MONSTRUOS",
+    "06_DUNGEON"
+  ]
+}

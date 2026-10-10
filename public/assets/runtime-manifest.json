@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "atlases": [
+    {
+      "key": "loot-icons",
+      "image": "assets/atlases/loot-icons.png",
+      "data": "assets/atlases/loot-icons.json",
+      "frames": 48,
+      "imageSha256": "993a48d6968353871178b63d80f7d1c06193167bc8851b294183ad35c4187595"
+    },
+    {
+      "key": "bestiary-icons",
+      "image": "assets/atlases/bestiary-icons.png",
+      "data": "assets/atlases/bestiary-icons.json",
+      "frames": 50,
+      "imageSha256": "4977b495bcf8eb8700827a56c8dbf40e72582ea1b05537d3ea6125e19a700fda"
+    }
+  ],
+  "icons": [
+    {
+      "id": "loot_masa_naranja_01_transparent",
+      "label": "loot masa naranja 01 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_masa_naranja_01_transparent"
+    },
+    {
+      "id": "loot_escama_oscura_02_transparent",
+      "label": "loot escama oscura 02 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_escama_oscura_02_transparent"
+    },
+    {
+      "id": "loot_pluma_dorada_03_transparent",
+      "label": "loot pluma dorada 03 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_pluma_dorada_03_transparent"
+    },
+    {
+      "id": "loot_piel_marron_04_transparent",
+      "label": "loot piel marron 04 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_piel_marron_04_transparent"
+    },
+    {
+      "id": "loot_escama_azul_05_transparent",
+      "label": "loot escama azul 05 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_escama_azul_05_transparent"
+    },
+    {
+      "id": "loot_concha_clara_06_transparent",
+      "label": "loot concha clara 06 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_concha_clara_06_transparent"
+    },
+    {
+      "id": "loot_cuerno_blanco_07_transparent",
+      "label": "loot cuerno blanco 07 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cuerno_blanco_07_transparent"
+    },
+    {
+      "id": "loot_colmillos_blancos_08_transparent",
+      "label": "loot colmillos blancos 08 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_colmillos_blancos_08_transparent"
+    },
+    {
+      "id": "loot_colmillo_amarillo_09_transparent",
+      "label": "loot colmillo amarillo 09 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_colmillo_amarillo_09_transparent"
+    },
+    {
+      "id": "loot_garra_amarilla_10_transparent",
+      "label": "loot garra amarilla 10 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_garra_amarilla_10_transparent"
+    },
+    {
+      "id": "loot_cuerno_marron_11_transparent",
+      "label": "loot cuerno marron 11 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cuerno_marron_11_transparent"
+    },
+    {
+      "id": "loot_semillas_marrones_12_transparent",
+      "label": "loot semillas marrones 12 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_semillas_marrones_12_transparent"
+    },
+    {
+      "id": "loot_hoja_verde_13_transparent",
+      "label": "loot hoja verde 13 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_hoja_verde_13_transparent"
+    },
+    {
+      "id": "loot_cristales_turquesa_14_transparent",
+      "label": "loot cristales turquesa 14 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristales_turquesa_14_transparent"
+    },
+    {
+      "id": "loot_polen_amarillo_15_transparent",
+      "label": "loot polen amarillo 15 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_polen_amarillo_15_transparent"
+    },
+    {
+      "id": "loot_cristal_azul_16_transparent",
+      "label": "loot cristal azul 16 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristal_azul_16_transparent"
+    },
+    {
+      "id": "loot_cristales_morados_17_transparent",
+      "label": "loot cristales morados 17 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristales_morados_17_transparent"
+    },
+    {
+      "id": "loot_espina_dorada_18_transparent",
+      "label": "loot espina dorada 18 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_espina_dorada_18_transparent"
+    },
+    {
+      "id": "loot_espiral_blanca_19_transparent",
+      "label": "loot espiral blanca 19 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_espiral_blanca_19_transparent"
+    },
+    {
+      "id": "loot_fragmentos_blancos_20_transparent",
+      "label": "loot fragmentos blancos 20 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_fragmentos_blancos_20_transparent"
+    },
+    {
+      "id": "loot_cuerno_curvo_21_transparent",
+      "label": "loot cuerno curvo 21 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cuerno_curvo_21_transparent"
+    },
+    {
+      "id": "loot_garras_blancas_22_transparent",
+      "label": "loot garras blancas 22 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_garras_blancas_22_transparent"
+    },
+    {
+      "id": "loot_tubos_dorados_23_transparent",
+      "label": "loot tubos dorados 23 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_tubos_dorados_23_transparent"
+    },
+    {
+      "id": "loot_huesos_amarillos_24_transparent",
+      "label": "loot huesos amarillos 24 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_huesos_amarillos_24_transparent"
+    },
+    {
+      "id": "loot_pluma_oscura_25_transparent",
+      "label": "loot pluma oscura 25 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_pluma_oscura_25_transparent"
+    },
+    {
+      "id": "loot_concha_marron_26_transparent",
+      "label": "loot concha marron 26 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_concha_marron_26_transparent"
+    },
+    {
+      "id": "loot_garras_doradas_27_transparent",
+      "label": "loot garras doradas 27 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_garras_doradas_27_transparent"
+    },
+    {
+      "id": "loot_piel_naranja_28_transparent",
+      "label": "loot piel naranja 28 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_piel_naranja_28_transparent"
+    },
+    {
+      "id": "loot_concha_verde_29_transparent",
+      "label": "loot concha verde 29 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_concha_verde_29_transparent"
+    },
+    {
+      "id": "loot_cristales_rojos_30_transparent",
+      "label": "loot cristales rojos 30 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristales_rojos_30_transparent"
+    },
+    {
+      "id": "loot_aro_plateado_31_transparent",
+      "label": "loot aro plateado 31 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_aro_plateado_31_transparent"
+    },
+    {
+      "id": "loot_cuerno_espiral_32_transparent",
+      "label": "loot cuerno espiral 32 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cuerno_espiral_32_transparent"
+    },
+    {
+      "id": "loot_garra_amarilla_curva_33_transparent",
+      "label": "loot garra amarilla curva 33 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_garra_amarilla_curva_33_transparent"
+    },
+    {
+      "id": "loot_garra_oscura_34_transparent",
+      "label": "loot garra oscura 34 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_garra_oscura_34_transparent"
+    },
+    {
+      "id": "loot_gema_amarilla_35_transparent",
+      "label": "loot gema amarilla 35 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_gema_amarilla_35_transparent"
+    },
+    {
+      "id": "loot_cristales_amarillos_36_transparent",
+      "label": "loot cristales amarillos 36 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristales_amarillos_36_transparent"
+    },
+    {
+      "id": "loot_escama_dorada_37_transparent",
+      "label": "loot escama dorada 37 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_escama_dorada_37_transparent"
+    },
+    {
+      "id": "loot_fibra_verde_38_transparent",
+      "label": "loot fibra verde 38 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_fibra_verde_38_transparent"
+    },
+    {
+      "id": "loot_panal_amarillo_39_transparent",
+      "label": "loot panal amarillo 39 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_panal_amarillo_39_transparent"
+    },
+    {
+      "id": "loot_cristal_rojo_40_transparent",
+      "label": "loot cristal rojo 40 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cristal_rojo_40_transparent"
+    },
+    {
+      "id": "loot_pluma_naranja_41_transparent",
+      "label": "loot pluma naranja 41 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_pluma_naranja_41_transparent"
+    },
+    {
+      "id": "loot_pata_marron_42_transparent",
+      "label": "loot pata marron 42 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_pata_marron_42_transparent"
+    },
+    {
+      "id": "loot_cola_naranja_43_transparent",
+      "label": "loot cola naranja 43 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cola_naranja_43_transparent"
+    },
+    {
+      "id": "loot_cola_segmentada_44_transparent",
+      "label": "loot cola segmentada 44 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_cola_segmentada_44_transparent"
+    },
+    {
+      "id": "loot_astas_plateadas_45_transparent",
+      "label": "loot astas plateadas 45 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_astas_plateadas_45_transparent"
+    },
+    {
+      "id": "loot_espinas_plateadas_46_transparent",
+      "label": "loot espinas plateadas 46 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_espinas_plateadas_46_transparent"
+    },
+    {
+      "id": "loot_colmillo_curvo_47_transparent",
+      "label": "loot colmillo curvo 47 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_colmillo_curvo_47_transparent"
+    },
+    {
+      "id": "loot_concha_amarilla_48_transparent",
+      "label": "loot concha amarilla 48 transparent",
+      "category": "loot",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "loot-icons",
+      "frameName": "loot_concha_amarilla_48_transparent"
+    },
+    {
+      "id": "monster_insecto_rojo_49_transparent",
+      "label": "monster insecto rojo 49 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_insecto_rojo_49_transparent"
+    },
+    {
+      "id": "monster_insecto_morado_50_transparent",
+      "label": "monster insecto morado 50 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_insecto_morado_50_transparent"
+    },
+    {
+      "id": "monster_hongo_rojo_01_transparent",
+      "label": "monster hongo rojo 01 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_rojo_01_transparent"
+    },
+    {
+      "id": "monster_hongo_ramificado_02_transparent",
+      "label": "monster hongo ramificado 02 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_ramificado_02_transparent"
+    },
+    {
+      "id": "monster_hongo_blanco_03_transparent",
+      "label": "monster hongo blanco 03 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_blanco_03_transparent"
+    },
+    {
+      "id": "monster_hongo_morado_04_transparent",
+      "label": "monster hongo morado 04 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_morado_04_transparent"
+    },
+    {
+      "id": "monster_caracol_marron_05_transparent",
+      "label": "monster caracol marron 05 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_caracol_marron_05_transparent"
+    },
+    {
+      "id": "monster_criatura_esferica_roja_06_transparent",
+      "label": "monster criatura esferica roja 06 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_criatura_esferica_roja_06_transparent"
+    },
+    {
+      "id": "monster_hongo_verde_07_transparent",
+      "label": "monster hongo verde 07 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_verde_07_transparent"
+    },
+    {
+      "id": "monster_hongo_multiple_08_transparent",
+      "label": "monster hongo multiple 08 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_multiple_08_transparent"
+    },
+    {
+      "id": "monster_hongo_rojo_pequeno_09_transparent",
+      "label": "monster hongo rojo pequeno 09 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_rojo_pequeno_09_transparent"
+    },
+    {
+      "id": "monster_hongo_naranja_10_transparent",
+      "label": "monster hongo naranja 10 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_hongo_naranja_10_transparent"
+    },
+    {
+      "id": "monster_planta_serpiente_11_transparent",
+      "label": "monster planta serpiente 11 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_planta_serpiente_11_transparent"
+    },
+    {
+      "id": "monster_planta_tentaculos_12_transparent",
+      "label": "monster planta tentaculos 12 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_planta_tentaculos_12_transparent"
+    },
+    {
+      "id": "monster_flor_azul_13_transparent",
+      "label": "monster flor azul 13 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_flor_azul_13_transparent"
+    },
+    {
+      "id": "monster_planta_roja_14_transparent",
+      "label": "monster planta roja 14 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_planta_roja_14_transparent"
+    },
+    {
+      "id": "monster_raiz_verde_15_transparent",
+      "label": "monster raiz verde 15 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_raiz_verde_15_transparent"
+    },
+    {
+      "id": "monster_flor_naranja_16_transparent",
+      "label": "monster flor naranja 16 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_flor_naranja_16_transparent"
+    },
+    {
+      "id": "monster_planta_amarilla_17_transparent",
+      "label": "monster planta amarilla 17 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_planta_amarilla_17_transparent"
+    },
+    {
+      "id": "monster_flor_circular_18_transparent",
+      "label": "monster flor circular 18 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_flor_circular_18_transparent"
+    },
+    {
+      "id": "monster_planta_cristales_azules_19_transparent",
+      "label": "monster planta cristales azules 19 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_planta_cristales_azules_19_transparent"
+    },
+    {
+      "id": "monster_flor_roja_20_transparent",
+      "label": "monster flor roja 20 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_flor_roja_20_transparent"
+    },
+    {
+      "id": "monster_slime_verde_21_transparent",
+      "label": "monster slime verde 21 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_verde_21_transparent"
+    },
+    {
+      "id": "monster_slime_turquesa_22_transparent",
+      "label": "monster slime turquesa 22 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_turquesa_22_transparent"
+    },
+    {
+      "id": "monster_slime_cristales_23_transparent",
+      "label": "monster slime cristales 23 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_cristales_23_transparent"
+    },
+    {
+      "id": "monster_slime_musgoso_24_transparent",
+      "label": "monster slime musgoso 24 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_musgoso_24_transparent"
+    },
+    {
+      "id": "monster_fantasma_azul_25_transparent",
+      "label": "monster fantasma azul 25 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_fantasma_azul_25_transparent"
+    },
+    {
+      "id": "monster_slime_amarillo_26_transparent",
+      "label": "monster slime amarillo 26 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_amarillo_26_transparent"
+    },
+    {
+      "id": "monster_slime_palido_27_transparent",
+      "label": "monster slime palido 27 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_palido_27_transparent"
+    },
+    {
+      "id": "monster_slime_esmeralda_28_transparent",
+      "label": "monster slime esmeralda 28 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_esmeralda_28_transparent"
+    },
+    {
+      "id": "monster_slime_gotas_29_transparent",
+      "label": "monster slime gotas 29 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_gotas_29_transparent"
+    },
+    {
+      "id": "monster_slime_limon_30_transparent",
+      "label": "monster slime limon 30 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_slime_limon_30_transparent"
+    },
+    {
+      "id": "monster_escarabajo_marron_31_transparent",
+      "label": "monster escarabajo marron 31 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_escarabajo_marron_31_transparent"
+    },
+    {
+      "id": "monster_arana_morada_32_transparent",
+      "label": "monster arana morada 32 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_arana_morada_32_transparent"
+    },
+    {
+      "id": "monster_murcielago_marron_33_transparent",
+      "label": "monster murcielago marron 33 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_murcielago_marron_33_transparent"
+    },
+    {
+      "id": "monster_escarabajo_rojo_34_transparent",
+      "label": "monster escarabajo rojo 34 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_escarabajo_rojo_34_transparent"
+    },
+    {
+      "id": "monster_arana_azul_35_transparent",
+      "label": "monster arana azul 35 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_arana_azul_35_transparent"
+    },
+    {
+      "id": "monster_arana_roja_36_transparent",
+      "label": "monster arana roja 36 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_arana_roja_36_transparent"
+    },
+    {
+      "id": "monster_criatura_alada_roja_37_transparent",
+      "label": "monster criatura alada roja 37 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_criatura_alada_roja_37_transparent"
+    },
+    {
+      "id": "monster_arana_negra_38_transparent",
+      "label": "monster arana negra 38 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_arana_negra_38_transparent"
+    },
+    {
+      "id": "monster_mantis_verde_39_transparent",
+      "label": "monster mantis verde 39 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_mantis_verde_39_transparent"
+    },
+    {
+      "id": "monster_criatura_naranja_40_transparent",
+      "label": "monster criatura naranja 40 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_criatura_naranja_40_transparent"
+    },
+    {
+      "id": "monster_pollo_mutante_41_transparent",
+      "label": "monster pollo mutante 41 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_pollo_mutante_41_transparent"
+    },
+    {
+      "id": "monster_avispa_amarilla_42_transparent",
+      "label": "monster avispa amarilla 42 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_avispa_amarilla_42_transparent"
+    },
+    {
+      "id": "monster_criatura_roja_43_transparent",
+      "label": "monster criatura roja 43 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_criatura_roja_43_transparent"
+    },
+    {
+      "id": "monster_gnomo_barba_blanca_44_transparent",
+      "label": "monster gnomo barba blanca 44 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_gnomo_barba_blanca_44_transparent"
+    },
+    {
+      "id": "monster_calabaza_viviente_45_transparent",
+      "label": "monster calabaza viviente 45 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_calabaza_viviente_45_transparent"
+    },
+    {
+      "id": "monster_roedor_marron_46_transparent",
+      "label": "monster roedor marron 46 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_roedor_marron_46_transparent"
+    },
+    {
+      "id": "monster_criatura_alada_clara_47_transparent",
+      "label": "monster criatura alada clara 47 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_criatura_alada_clara_47_transparent"
+    },
+    {
+      "id": "monster_sapo_verde_48_transparent",
+      "label": "monster sapo verde 48 transparent",
+      "category": "bestiary",
+      "width": 32,
+      "height": 32,
+      "atlasKey": "bestiary-icons",
+      "frameName": "monster_sapo_verde_48_transparent"
+    }
+  ]
+}

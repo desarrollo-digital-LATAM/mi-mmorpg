@@ -1,0 +1,17 @@
+# Generated dependencies and build output
+node_modules/
+dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Sources/captures are not part of the application.
+asset-workbench/
+
+# Keep local art files untracked until repository distribution is resolved.
+public/assets/icons/
+public/assets/atlases/
+# CraftPix prototype files stay local until public distribution is resolved.
+public/assets/prototypes/
