@@ -16,6 +16,7 @@ export class PrototypeReviewScene extends Phaser.Scene {
     this.createAnimations();
     this.input.keyboard?.on('keydown-SPACE', () => this.togglePage());
     this.input.keyboard?.on('keydown-I', () => this.scene.start('AssetReviewScene'));
+    this.input.keyboard?.on('keydown-W', () => this.scene.start('WorldTestScene'));
     this.draw();
   }
 
@@ -30,7 +31,7 @@ export class PrototypeReviewScene extends Phaser.Scene {
     this.children.removeAll();
     this.add.rectangle(480, 270, 960, 540, 0x101621);
     if (this.page === 0) this.drawSwordsman(); else this.drawEnvironmentCandidates();
-    this.add.text(930, 516, 'Espacio: candidatos | I: iconos', { fontFamily: 'Arial', fontSize: '12px', color: '#8394a8' }).setOrigin(1, 0.5);
+    this.add.text(930, 516, 'Espacio: candidatos | I: iconos | W: mundo de prueba', { fontFamily: 'Arial', fontSize: '12px', color: '#8394a8' }).setOrigin(1, 0.5);
   }
 
   private drawSwordsman(): void {

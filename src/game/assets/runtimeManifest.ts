@@ -79,7 +79,10 @@ const prototypeAssets = new Map([
   ['swordsman-level-1-walk', 'assets/prototypes/swordsman-level-1/Swordsman_lvl1_Walk_without_shadow.png'],
   ['paths-and-roads-ground-grass', 'assets/prototypes/paths-and-roads/Ground_grass.png'],
   ['paths-and-roads-road5', 'assets/prototypes/paths-and-roads/Road5.png'],
+  ['paths-and-roads-road5-grass', 'assets/prototypes/paths-and-roads/Road5_grass.png'],
   ['chapel-exterior', 'assets/prototypes/chapel/Exterior.png'],
+  ['base-4-direction-unarmed-idle', 'assets/prototypes/base-4-direction/Unarmed_Idle_without_shadow.png'],
+  ['base-4-direction-unarmed-walk', 'assets/prototypes/base-4-direction/Unarmed_Walk_without_shadow.png'],
 ]);
 
 export function validatePrototypeManifest(value: unknown): PrototypeManifest | null {

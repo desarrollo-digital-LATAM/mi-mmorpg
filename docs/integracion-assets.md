@@ -44,11 +44,16 @@ Si reemplazas assets, actualiza IDs/rutas/hash del manifest de auditoría y runt
 
 ## Prototipos de Fase 1
 
-La Fase 0B conserva los 98 iconos estáticos. Para el diagnóstico de Fase 1 se copiaron localmente cinco PNG seleccionados a `public/assets/prototypes/`, con `manifest.json`, hashes y `LICENSE-source.txt`. `.gitignore` excluye toda esa carpeta: no se fuerza su inclusión en Git ni se carga nada desde `asset-workbench/`.
+La Fase 0B conserva los 98 iconos estáticos. Para el diagnóstico/prueba de Fase 1 se copiaron localmente ocho PNG seleccionados a `public/assets/prototypes/`, con `manifest.json`, hashes y `LICENSE-source.txt`. `.gitignore` excluye toda esa carpeta: no se fuerza su inclusión en Git ni se carga nada desde `asset-workbench/`.
 
 - Swordsman nivel 1: `Walk_without_shadow` e `Idle_without_shadow` se cargan como spritesheets 64x64 a escala 1x. TMX documenta 150 ms por paso; se verifican 6 frames walk y 12 idle por cada una de cuatro filas. El orden de direcciones no aparece nombrado en el TMX, por lo que las filas permanecen indexadas.
-- Path and Road: `Ground_grass` y `Road5` se muestran como muestras de tiles 16x16. `Roads.tmx` no se importa como mapa jugable.
+- Path and Road: `Ground_grass`, `Road5` y `Road5_grass` se muestran como muestras de tiles 16x16. `Roads.tmx` no se importa como mapa jugable; la escena compone un mapa propio con 80×60 celdas, solo `Ground_grass` frame 36 y un parche `Road5_grass` derivado de una región de la capa `Roads`.
+- Base 4-Direction: se carga la exportación PNG `Unarmed_Idle_without_shadow` y `Unarmed_Walk_without_shadow`, 64×64 por frame. La vista de cuatro orientaciones consume el estado de `PlayerController`; los `.aseprite` se conservan solo en el ZIP local, no se sirven ni se cargan desde Phaser.
 - Chapel: `Exterior.png` se muestra como muestra de tiles 16x16. `Exterior.tmx` no se importa como plaza ni mapa jugable.
 - Aqua Slime sigue reservado para Fase 2, fuera del manifest y de la carga runtime.
 
-Inventario, hashes, fuentes, frame size, tiempos y limites: `docs/prototipos-fase-1.md`. Hasta obtener etiquetas de direcciones y un entorno coherente validado, no crear Tiled JSON propio, hitbox, camara ni escena explorable.
+Inventario, hashes, fuentes, frame size, tiempos y límites: `docs/prototipos-fase-1.md`. El héroe integrado es una vista provisional sobre el controlador existente. El mapa de Path and Road sigue sin obstáculos ni colisiones; spawn y límites son propios de la escena. Ver `WorldTestScene` y el inventario para límites de escala/anclaje.
+
+## Auditoría de packs anunciados en octubre de 2026
+
+El ZIP Base 4-Direction ahora está disponible en `asset-workbench/incoming/` y fue auditado. Se integraron solo sus exportaciones PNG unarmed idle/walk verificadas; el ZIP y los Aseprite siguen locales. Los ZIP Tiny Hero y Undead están presentes, pero no se auditaron ni integraron en esta tarea. Los PNG de runtime siguen bajo la carpeta excluida por Git y manifestados por hash.

@@ -67,7 +67,7 @@ for (const icon of runtime.icons) {
 }
 check(runtime.icons.length === atlasFrames.size, 'Frames y runtime no coinciden');
 check(prototypes.schemaVersion === 1, 'Version invalida del manifest de prototipos');
-check(Array.isArray(prototypes.assets) && prototypes.assets.length === 5, 'El manifest de prototipos debe tener 5 recursos');
+check(Array.isArray(prototypes.assets) && prototypes.assets.length === 8, 'El manifest de prototipos debe tener 8 recursos');
 for (const asset of prototypes.assets ?? []) {
   check(typeof asset.id === 'string' && asset.id.length > 0, 'ID invalido en prototipo');
   check(typeof asset.path === 'string' && asset.path.startsWith('assets/prototypes/') && !asset.path.includes('..'), `Ruta invalida de prototipo: ${asset.path}`);

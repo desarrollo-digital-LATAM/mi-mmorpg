@@ -45,7 +45,7 @@ export class BootScene extends Phaser.Scene {
       this.fail('El manifiesto o los recursos de prototipo no son validos.');
       return;
     }
-    this.scene.start('PrototypeReviewScene', manifest);
+    this.scene.start('WorldTestScene', manifest);
   }
 
   private drawProgress(value: number): void {

@@ -41,3 +41,7 @@ Cada ZIP adjunto apunta a [la licencia de CraftPix](https://craftpix.net/file-li
 ## Siguiente decisión técnica
 
 La ruta recomendada es probar primero **Swordsman nivel 1 + un mapa breve de plaza/camino**. Chapel aporta la composición de plaza; Road aporta caminos, pero no combinar sus hojas hasta inspeccionar ambos dentro de Phaser y confirmar escala/paleta. Si la escena debe ser estrictamente bosque, falta todavía un tileset con árboles y vegetación coherentes. El slime se integra cuando la escena del jugador y su estructura de animación estén verificadas.
+
+## Revisión posterior: Base 4-Direction
+
+Se recibió después el ZIP `craftpix-net-555940-free-base-4-direction-male-character-pixel-art.zip`. Para la prueba se eligió su variante Unarmed Idle/Walk: las fuentes Aseprite nombran las cuatro orientaciones y sus duraciones; la composición sin shadow coincide píxel a píxel con las cuatro filas de las exportaciones PNG. Está integrada solo como vista animada provisional y no implica combate ni habilita las demás acciones del pack. Detalles, hashes y limitaciones: `docs/prototipos-fase-1.md` y `docs/licencias-y-origen.md`.

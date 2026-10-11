@@ -1,6 +1,6 @@
 # Hack the Andes
 
-RPG 2D web individual con pixel art y perspectiva visual top-down 3/4. Fase 0B esta completada y Fase 1 incluye un diagnostico reproducible de Swordsman nivel 1 y los candidatos Road/Chapel. No es un mundo jugable: todavia no hay mapa, movimiento, combate ni enemigo.
+RPG 2D web individual con pixel art y perspectiva visual top-down 3/4. Fase 0B esta completada. Fase 1 conserva el diagnostico de Swordsman nivel 1 y Road/Chapel, y la prueba transitable ahora usa tiles de Path and Road y el personaje unarmed de Base 4-Direction. Es un prototipo local, no el mapa ni el arte final; no hay combate.
 
 ## Requisitos
 
@@ -31,7 +31,7 @@ npm run build
 npm run preview -- --base /hack-the-andes/
 ```
 
-La aplicacion abre el diagnostico de Fase 1: anima sin escala las cuatro filas indexadas de Idle y Walk, y permite revisar Road/Chapel con `Espacio`. `I` abre la galeria previa de 48 iconos de Botin y 50 de Bestiario. Los prototipos de CraftPix en `public/assets/prototypes/` son locales e ignorados por Git; las capturas y fuentes de trabajo no se empaquetan.
+La aplicacion abre la prueba transitable: WASD/flechas mueven al héroe unarmed de cuatro direcciones con diagonal normalizada, cámara con límites y mapa pequeño de Path and Road. Idle conserva la última dirección. `P` abre el diagnóstico de assets; allí `Espacio` revisa candidatos, `I` abre la galería previa de 48 iconos de Botín y 50 de Bestiario, y `W` vuelve a la prueba. El mapa no tiene obstáculos. Los PNG locales seleccionados y su manifest están en `public/assets/prototypes/`, excluidos por Git; el ZIP original permanece en `asset-workbench/incoming/`.
 
 ## Estado y documentacion
 
@@ -43,4 +43,4 @@ La aplicacion abre el diagnostico de Fase 1: anima sin escala las cuatro filas i
 - [Inventario de prototipos Fase 1](docs/prototipos-fase-1.md)
 - [Progreso verificable](docs/progreso.md)
 
-La siguiente accion es confirmar el orden de las cuatro direcciones del Swordsman y validar un entorno exterior coherente, con vegetacion y piezas para un mapa propio. Aqua Slime sigue reservado para Fase 2; no hay combate implementado.
+La siguiente accion es validar la hitbox del héroe y diseñar colisiones/objetivos para una zona final. El mapa/spawn siguen siendo de prueba y no hay combate; Aqua Slime continúa reservado para Fase 2.

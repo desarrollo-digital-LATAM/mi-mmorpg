@@ -12,10 +12,13 @@ Revisión: 2026-10-10 UTC. Este registro identifica la evidencia presente y las 
 | dungeon original | dungeon.zip contiene solo 3 PNG | No identificado | Licencia pendiente; no copiar a public/. |
 | mundo/slime y mapas completos anteriores | Imágenes de referencia aportadas | No acreditado | Referencia visual. |
 | Swordsman 1–3 Level | ZIP nuevo aportado; `License.txt` apunta al URL de Freebie | https://craftpix.net/freebies/free-swordsman-1-3-level-pixel-top-down-sprite-character-pack/ | Candidato local; fases y mapeo de frames pendientes. |
-| Path and Road | ZIP nuevo aportado; `license.txt` apunta al URL de Freebie | https://craftpix.net/product/path-and-road-top-down-tileset-pixel-art/ | Candidato local; no es mapa jugable. |
+| Path and Road | ZIP nuevo aportado; `license.txt` apunta al URL de Freebie | https://craftpix.net/product/path-and-road-top-down-tileset-pixel-art/ | Tiles de prueba locales; fuentes y `Roads.tmx` permanecen en `asset-workbench/`; no se afirma adquisición ni redistribución pública del arte. |
 | Chapel | ZIP nuevo aportado; `License.txt` apunta al URL de Freebie | https://craftpix.net/freebies/free-chapel-pixel-art-top-down-asset-pack/ | Candidato local; probar estilo/escala. |
 | Aqua Slime Mobs | ZIP nuevo aportado; `License.txt` apunta al URL de Freebie | https://craftpix.net/freebies/free-slime-mobs-pixel-art-top-down-sprite-pack/ | Candidato local; reservar para combate. |
 | Keyboard and Mouse, RPG UI, Magic Book, Vampire, Dungeon nuevos | ZIPs nuevos aportados; License apunta a CraftPix | https://craftpix.net/file-licenses/ | Uso futuro opcional; ver revisión de packs. No son integraciones actuales. |
+| Base 4-Direction | ZIP aportado en `asset-workbench/incoming/`; `License.txt` apunta a la página oficial; SHA-256 del ZIP registrado en `docs/prototipos-fase-1.md` | CraftPix, “Free Base 4-Direction Male Character Pixel Art”; https://craftpix.net/file-licenses/ | PNG unarmed idle/walk seleccionados para prueba local. Términos Freebie permiten uso en juegos y prohíben redistribuir arte fuente reutilizable; la presencia del ZIP no acredita adquisición. |
+| Tiny Heroes | ZIP presente en `asset-workbench/incoming/`, no auditado en esta tarea | CraftPix, “Free Pixel Art Tiny Hero Sprites” | No integrado; pendiente revisar orientación/animaciones/licencia específica. |
+| Undead Tileset | ZIP presente en `asset-workbench/incoming/`, no auditado en esta tarea | CraftPix, “Free Undead Tileset Top Down Pixel Art” | No integrado; pendiente revisar TMX/colisiones/licencia específica. |
 
 ## CraftPix Freebie
 
@@ -23,7 +26,7 @@ En la página oficial https://craftpix.net/file-licenses/ la sección 2 permite 
 
 La misma sección restringe reventa/redistribución del arte como archivos aprovechables por terceros. Incluirlo en la ejecución del juego y ofrecer un pack descargable son usos distintos. No publicar este kit como biblioteca de assets ni asumir que el permiso para publicar el juego permite exponer todas las fuentes en GitHub. Si necesitas un repo público con arte versionado, confirmar ese uso con el titular o elegir recursos cuya licencia lo permita expresamente.
 
-Los PSD se conservan como fuente de edición local y no se sirven con Vite. Los packs nuevos preservan `License-source.txt` bajo `asset-workbench/candidates/`; también se conserva la licencia previa en `licenses/craftpix/License.txt`. Los textos de licencia identifican el URL, no una copia local de las condiciones completas. Consulta la licencia vigente antes de publicar o cambiar el uso.
+Los PSD y Aseprite se conservan solo en sus ZIP/fuentes locales y no se sirven con Vite. El pack Base 4-Direction conserva su ZIP original en `asset-workbench/incoming/`; su `License.txt` y el `LICENSE-source.txt` de la extracción solo apuntan al URL oficial, no copian los términos completos. No se encontró `licenses/craftpix/License.txt` en este checkout. Consulta la licencia vigente antes de publicar o cambiar el uso.
 
 ## Separación del código
 
